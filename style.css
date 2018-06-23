@@ -1,10 +1,41 @@
+body {
+    margin: 0;
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.container {
+    padding: 0.01em 16px;
+}
 
 .banner {
-  margin:15px 15px 15px 15px;
-  float:left; 
-  text-align:left;
-  font-size: 100%;
-  color:black; 
-  border:solid 0px red;
-  background-color:#418FDE; 
+    color: white;
+    background-color: #009688;
 }
