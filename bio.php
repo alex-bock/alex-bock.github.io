@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title> Alexander Bock </title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+    <?php include("navbar.html"); ?>
+    <?php include("banner.html"); ?>
+
+    <h2>bio</h2>
+    <div class="bio">
+      <p>This is where my bio would go!</p>
+    </div>
+
+    <iframe width="280" height="163" src="https://www.youtube.com/embed/Yh36PaE-Pf0" frameborder="1" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+  </body>
+</html>

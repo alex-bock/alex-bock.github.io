@@ -1,0 +1,10 @@
+
+.banner {
+  margin:15px 15px 15px 15px;
+  float:left; 
+  text-align:left;
+  font-size: 100%;
+  color:black; 
+  border:solid 0px red;
+  background-color:#418FDE; 
+}
