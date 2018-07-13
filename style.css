@@ -32,9 +32,10 @@ li a:hover {
     background-color: #111;
 }
 
-.container {
+.main-paragraph {
     padding: 0.01em 16px;
     text-align: justify;
+    width: 90%;
 }
 
 .banner {
