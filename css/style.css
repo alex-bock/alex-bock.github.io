@@ -77,6 +77,11 @@ nav {
   background-color: var(--bg-color);
 }
 
+nav .name-box p {
+  padding: 0 0;
+  font-size: 12px;
+}
+
 nav ul {
   display: flex;
   gap: 1.9rem;
