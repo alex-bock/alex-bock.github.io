@@ -1,49 +1,76 @@
-<!DOCTYPE html>
 
 <html lang="en">
-  <head>
-    <title> Alexander Bock </title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="images/robot.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  </head>
-  <body>
-    <div class="comms-bar">
-      <p>
-        <a href="#" style="text-decoration:none"> <b>alex bock</b></a> |
-        <a href="mailto:alex.bock125@gmail.com"> <i class="fa fa-envelope"></i></a> |
-        <a href="https://www.linkedin.com/in/alex-bock-09a753121/" target="_blank"> <i class="fa fa-linkedin"></i></a> |
-        <a href="https://github.com/alex-bock" target="_blank"> <i class="fa fa-github"></i></a>
-      </p>
-    </div>
-    <div class="filler">
-      &nbsp;
-    </div>
-    <div class="banner" style="background-image: url('images/topics.png');"></div>
-    <div class="intro">
-      <p>dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      <p>for everything cut down to one page, here's my <a href="CV.pdf" target="_blank" download="abock.pdf"> <sm>resume</sm></a>.</p>
-    </div>
-    <div class="project-left">
-      <h2>AI-augmented human task analysis</h2>
-      <p>dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </div>
-    <div class="project-right">
-      <h2>emotionally intelligent assistance in clinical conversations</h2>
-      <p>dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      <p>
-    </div>
-    <div class="project-left">
-      <h2>enzyme fingerprinting with NLP-inspired topic modeling</h2>
-      <p>dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </div>
-    <div class="project-right">
-      <h2>inferring protein function from structure</h2>
-      <p>dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </div>
-    <div class="project-left">
-      <h2>studying swarm behavior and capabilities</h2>
-      <p>dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </div>
-  </body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="icon" href="images/robot.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <title>Alex Bock</title>
+    </head>
+
+    <body>
+
+        <!-- Navbar -->
+
+        <nav>
+            <h1>Alex Bock</h1>
+            <ul class="navigation">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="burger-menu" id="burger-menu">
+                <ion-icon class="bars" name="menu-outline"></ion-icon>
+            </button>
+        </nav>
+
+        <!-- About -->
+
+        <section class="about" id="about">
+            <img src="images/topics.png" class="hero-img"/>
+            <p class="bio-text">
+                I'm a software developer and researcher interested in using
+                software to make sense of data and help users explore and
+                uncover patterns for real-world applications. I'm passionate
+                about the research process, and I'm especially interested in
+                what computational methods can teach us about molecular biology
+                and human language.
+            </p>
+        </section>
+
+        <!-- Projects -->
+
+        <section class="projects" id="projects">
+            <h2>Projects</h2>
+            <div class="project-entry">
+                <h3>Tracking topics in a corpus</h3>
+                <p>(Pending description)</p>
+            </div>
+            <div class="project-entry">
+                <h3>Enzyme sequence topic modeling</h3>
+                <p>(Pending description)</p>
+            </div>
+            <div class="project-entry">
+                <h3>Sentiment analysis for assisted clinical communication</h3>
+                <p>(Pending description)</p>
+            </div>
+            <div class="project-entry">
+                <h3>AI-augmented human task analysis</h3>
+                <p>(Pending description)</p>
+            </div>
+            <div class="project-entry">
+                <h3>Optimizing agent swarming capabilities</h3>
+                <p>(Pending description)</p>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <!-- Scroll to top -->
+        <!-- Footer -->
+        <!-- Scripts -->
+        <script src="assets/js/app.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </body>
 </html>

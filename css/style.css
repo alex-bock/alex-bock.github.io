@@ -1,0 +1,106 @@
+
+/* Variables */
+:root {
+  --font-family: Verdana,sans-serif;
+  --normal-font: 400;
+  --bold-font: 700;
+  --bolder-font: 900;
+  --bg-color: #fcfcfc;
+  --primary-color: #000000;
+  --link-color: #696969;
+  --primary-shadow: #8b8eaf;
+  --secondary-shadow: #a17a69;
+  --bottom-margin: 0.5rem;
+  --bottom-margin-2: 1rem;
+  --line-height: 1.7rem;
+  --transition: 0.3s;
+}
+/* Variables end */
+
+/* CSS Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: var(--link-color);
+}
+
+a:hover {
+  color: var(--primary-color);
+  transition: var(--transition);
+}
+
+body {
+  font-family: var(--font-family);
+}
+
+h1 {
+  color: var(--primary-color);
+}
+
+h2 {
+  color: var(--primary-color);
+}
+
+p {
+  line-height: var(--line-height);
+  padding: 0.3rem 0.7rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 3.5rem;
+  background-color: var(--bg-color);
+}
+
+nav ul {
+  display: flex;
+  gap: 1.9rem;
+}
+
+nav .burger-menu {
+  color: var(--primary-color);
+  font-size: 2rem;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  display: none;
+}
+
+section h2 {
+  padding: 1rem 0.7rem;
+}
+
+section h3 {
+  padding: 1rem 0.7rem;
+}
+
+project-entry h3 {
+  padding: 0.3rem 0.7rem;
+}
+
+.about img {
+  object-fit: cover;
+  height: 250px;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
