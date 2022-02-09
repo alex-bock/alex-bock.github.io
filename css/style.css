@@ -75,6 +75,7 @@ nav {
   justify-content: space-between;
   padding: 1.5rem 3.5rem;
   background-color: var(--bg-color);
+  height: 6rem;
 }
 
 nav .name-box p {
@@ -96,6 +97,10 @@ nav .burger-menu {
   display: none;
 }
 
+section {
+  scroll-margin-top: 6rem;
+}
+
 section h2 {
   padding: 1rem 0.7rem;
 }
@@ -106,4 +111,19 @@ section h3 {
 
 project-entry h3 {
   padding: 0.3rem 0.7rem;
+}
+
+.contact {
+  align-items: center;
+  display: flex;
+  font-size: 50;
+  justify-content: space-between;
+  padding-left: 20rem;
+  padding-right: 20rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.contact a {
+  color: var(--primary-color);
 }
