@@ -44,6 +44,12 @@ h1 {
 
 h2 {
   color: var(--primary-color);
+  padding: 1rem 0.7rem;
+}
+
+h3 {
+  color: var(--primary-color);
+  padding: 1rem 0.7rem;
 }
 
 p {
@@ -73,7 +79,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1.5rem 3.5rem;
+  padding: 1.5rem 2.5rem;
   background-color: var(--bg-color);
   height: 6rem;
 }
@@ -101,16 +107,22 @@ section {
   scroll-margin-top: 6rem;
 }
 
-section h2 {
-  padding: 1rem 0.7rem;
+.projects .zigzag li {
+  padding-bottom: 2em;
+  padding-top: 2em;
 }
 
-section h3 {
-  padding: 1rem 0.7rem;
+.projects .zigzag .project-entry .project-entry p {
+  padding-left: 3em;
+  padding-right: 3em;
 }
 
-project-entry h3 {
-  padding: 0.3rem 0.7rem;
+.projects .zigzag .project-entry:nth-child(even) {
+  text-align: right;
+}
+
+.projects .zigzag .project-entry:nth-child(odd) {
+  text-align: left;
 }
 
 .contact {
