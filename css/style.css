@@ -4,7 +4,7 @@
   --font-family: Verdana,sans-serif;
   --bg-color: #fcfcfc;
   --primary-color: #000000;
-  --link-color: #696969;
+  --link-color: #0000ee;
   --line-height: 1.7rem;
   --transition: 0.3s;
 }
@@ -12,8 +12,8 @@
 
 /* CSS Resets */
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
 }
 
@@ -37,17 +37,17 @@ h1 {
 
 h2 {
   color: var(--primary-color);
-  padding: 1rem 0.7rem;
+  padding: 16px 12px;
 }
 
 h3 {
   color: var(--primary-color);
-  padding: 1rem 0.7rem;
+  padding: 16px 16px;
 }
 
 p {
   line-height: var(--line-height);
-  padding: 1rem 1rem;
+  padding: 16px 16px;
 }
 
 ul {
@@ -72,7 +72,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1.5rem 2.5rem;
+  padding: 24px 40px;
   background-color: var(--bg-color);
   height: 6rem;
 }
@@ -84,12 +84,16 @@ nav .name-box p {
 
 nav ul {
   display: flex;
-  gap: 1.9rem;
+  gap: 32px;
+}
+
+nav ul a {
+  color: #696969;
 }
 
 nav .burger-menu {
   color: var(--primary-color);
-  font-size: 2rem;
+  font-size: 32px;
   border: 0;
   background-color: transparent;
   cursor: pointer;
@@ -97,17 +101,11 @@ nav .burger-menu {
 }
 
 section {
-  scroll-margin-top: 6rem;
+  scroll-margin-top: 96px;
 }
 
 .projects .zigzag li {
-  padding-bottom: 2em;
-  padding-top: 2em;
-}
-
-.projects .zigzag .project-entry .project-entry p {
-  padding-left: 3em;
-  padding-right: 3em;
+  padding: 16px 32px;
 }
 
 .projects .zigzag .project-entry:nth-child(even) {
@@ -118,15 +116,32 @@ section {
   text-align: left;
 }
 
+.projects .zigzag .project-entry h3 {
+  padding: 16px 0px;
+}
+
+.projects .zigzag .project-entry .publication {
+  padding: 16px 16px;
+}
+
+.projects .zigzag .project-entry .publication p {
+  padding: 4px 12px;
+}
+
+/* .projects .zigzag .project-entry {
+  padding-left: 48px;
+  padding-right: 48px;
+} */
+
 .contact {
   align-items: center;
   display: flex;
   font-size: 50;
   justify-content: space-between;
-  padding-left: 20rem;
-  padding-right: 20rem;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-left: 320px;
+  padding-right: 320px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .contact a {
