@@ -114,8 +114,9 @@ section {
 
 .projects .zigzag .project-entry:nth-child(even) img {
   float: right;
-  height: 250px;
-  margin: 16px;
+  height: 275px;
+  margin-left: 16px;
+  margin-right: 16px;
 }
 
 .projects .zigzag .project-entry:nth-child(odd) {
@@ -124,8 +125,9 @@ section {
 
 .projects .zigzag .project-entry:nth-child(odd) img {
   float: left;
-  height: 250px;
-  margin: 16px;
+  height: 275px;
+  margin-left: 16px;
+  margin-right: 16px;
 }
 
 .projects .zigzag .project-entry h3 {
